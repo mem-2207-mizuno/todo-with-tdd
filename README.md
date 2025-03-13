@@ -70,18 +70,22 @@ my-todo-app/
   │   │   └─ todo/
   │   │       └─ useCases/
   │   │           ├─ AddTodo.ts       # 新規Todo追加ユースケース
-  │   │           └─ AddTodo.spec.ts  # 上記ユースケースのテスト
+  │   │           └─ AddTodo.spec.ts  # ユースケースのテスト
   │   ├─ infrastructure/
   │   │   └─ todo/
   │   │       └─ InMemoryTodoRepository.ts # メモリ上で動作するリポジトリ実装
   │   └─ ui/
-  │       └─ components/
-  │           ├─ TodoForm.tsx         # 新規TODO登録用フォームコンポーネント
-  │           └─ TodoForm.spec.tsx    # UIテスト
+  │       ├─ components/
+  │       │   ├─ TodoForm.tsx         # 新規TODO登録用フォームコンポーネント
+  │       │   └─ TodoForm.spec.tsx    # UIテスト
+  │       └─ pages/
+  │           ├─ TodoPage.tsx         # 各コンポーネントを統合する画面コンポーネント
+  │           └─ TodoPage.spec.tsx    # ページの統合テスト
   ├─ README.md
   ├─ package.json
   ├─ tsconfig.json
   └─ ... (その他設定ファイル)
+
 ```
 
 ---
