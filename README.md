@@ -113,7 +113,7 @@ my-todo-app/
 ### セットアップ手順 (例)
 
 ```bash
-git clone <このリポジトリ>
+git clone https://github.com/mem-2207-mizuno/todo-with-tdd
 cd my-todo-app
 
 # npmの場合
